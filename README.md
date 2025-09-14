@@ -5,7 +5,9 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu&logoColor=white)](https://ubuntu.com/)  
 [![VirtualBox](https://img.shields.io/badge/VirtualBox-Deployment-blue?logo=virtualbox&logoColor=white)](https://www.virtualbox.org/)  
 [![Docker](https://img.shields.io/badge/Docker-Containers-blue?logo=docker&logoColor=white)](https://www.docker.com/)  
-[![AWS EC2](https://img.shields.io/badge/AWS-EC2-yellow?logo=amazonaws&logoColor=white)](https://aws.amazon.com/ec2/)  
+[![AWS EC2](https://img.shields.io/badge/AWS-EC2-yellow?logo=amazonaws&logoColor=white)](https://aws.amazon.com/ec2/)
+[![GitHub Project](https://img.shields.io/badge/Project-Backlog-blue?logo=github)](https://github.com/users/haziqachik/projects/1)  
+[![GitHub release](https://img.shields.io/github/v/release/haziqachik/oracle-ubuntu-vm-deployment)](https://github.com/haziqachik/oracle-ubuntu-vm-deployment/releases)   
 ![Status](https://img.shields.io/badge/Project-Completed-success?logo=github)  
 
 ---
