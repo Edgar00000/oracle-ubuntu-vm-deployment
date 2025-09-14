@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="assets.css">
+<style>img{max-width:100%;height:auto;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.08)}</style>
+
 # Oracle Ubuntu VM Deployment Project
 
 ## Overview
