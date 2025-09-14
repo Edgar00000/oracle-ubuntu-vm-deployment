@@ -1,18 +1,47 @@
 /* Images: responsive, rounded, subtle shadow */
-img{
-  max-width:100%;
-  height:auto;
-  border-radius:10px;
-  box-shadow:0 2px 12px rgba(0,0,0,.08);
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.08);
 }
 
 /* Code blocks slightly smaller for readability */
-pre, code { font-size:0.95rem; }
+pre, code {
+  font-size: 0.95rem;
+  background: #f6f8fa;
+  padding: 4px 6px;
+  border-radius: 6px;
+}
 
 /* Tables span width */
-table{ width:100%; border-collapse:collapse; }
-table th, table td{ padding:6px 8px; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+}
 
 /* Headings spacing */
-h1{ margin-top:0.2rem; }
-h2, h3{ margin-top:1.2rem; }
+h1 { margin-top: 0.2rem; }
+h2, h3 { margin-top: 1.2rem; }
+
+/* Links highlight */
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Blockquote styling */
+blockquote {
+  border-left: 4px solid #ddd;
+  padding-left: 1rem;
+  color: #555;
+  font-style: italic;
+  background: #f9f9f9;
+}
